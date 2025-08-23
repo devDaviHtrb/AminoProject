@@ -4,5 +4,5 @@ home = Blueprint("home", __name__)
 
 @home.route("/")
 def Home():
-   return render_template("Home.html", routes=["communities", "news", "chat", "Login"])
+   return render_template("Home.html", routes=["communities", "chat", "Login"])
    
