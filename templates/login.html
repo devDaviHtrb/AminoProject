@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen flex flex-col bg-gradient-to-br from-purple-600 via-pink-600 to-red-700 text-white">
+    <!-- Navigation -->
+    <nav class="anime-gradient py-4 px-6 shadow-lg">
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="/" class="flex items-center space-x-2">
+          <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-lg">
+            <span class="text-2xl font-bold text-purple-600">A</span>
+          </div>
+          <span class="logo-text text-2xl font-bold">AnimoApp</span>
+        </a>
+      </div>
+    </nav>
+  
+    <!-- Banner -->
+    <header class="relative h-72 md:h-96 overflow-hidden">
+      <img src="https://i.pinimg.com/originals/91/55/79/915579ae2fd1cc95d03b25a6e82dbd4b.jpg" 
+           alt="Login banner" 
+           class="w-full h-full object-cover brightness-50">
+      <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+        <h1 class="text-4xl md:text-6xl font-bold drop-shadow-lg">Login to AnimoApp</h1>
+      </div>
+    </header>
+  
+    <!-- Content -->
+    <main class="container mx-auto px-6 py-12 flex-grow flex items-center justify-center">
+      <div class="bg-white text-gray-800 rounded-2xl shadow-xl p-8 max-w-4xl w-full md:w-2/3 lg:w-1/3">
+        <h2 class="text-2xl font-bold text-yellow-600 mb-6 text-center">Sign In</h2>
+        <form action="/login" method="POST" class="space-y-6">
+          <div>
+            <label for="email" class="block mb-2 font-semibold">Email</label>
+            <input type="email" id="email" name="email" required
+                   class="w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-yellow-400" 
+                   placeholder="you@example.com" />
+          </div>
+          <div>
+            <label for="password" class="block mb-2 font-semibold">Password</label>
+            <input type="password" id="password" name="password" required
+                   class="w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-yellow-400" 
+                   placeholder="••••••••" />
+          </div>
+          <button type="submit" 
+                  class="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 rounded-lg shadow-lg transition-colors duration-300">
+            Sign In
+          </button>
+        </form>
+        <p class="mt-6 text-center text-gray-600">
+          Don't have an account? 
+          <a href="/register" class="text-yellow-600 hover:underline font-semibold">Sign up</a>
+        </p>
+      </div>
+    </main>
+  
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6 text-center">
+      <p class="text-gray-400">© 2025 AnimoApp - Login</p>
+    </footer>
+  </body>
+  
+  
+</html>
