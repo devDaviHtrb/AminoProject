@@ -42,6 +42,7 @@ pages = {"Dragon Ball":{ "name":"Dragon Ball", "page": """<body class="min-h-scr
         <img src="https://i.pinimg.com/564x/1a/48/c1/1a48c1a57f8f77b58596a463d1a8df61.jpg" 
              alt="Goku vs Frieza" class="rounded-lg shadow-md">
       </div>
+                        <a href="/chat/dragon ball" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full font-semibold transition-colors inline-block">chat</a>
     </div>
   </main>
 
@@ -81,6 +82,7 @@ pages = {"Dragon Ball":{ "name":"Dragon Ball", "page": """<body class="min-h-scr
         a teenager who gains the powers of a Soul Reaper. With these powers, 
         he must defend humanity from evil spirits and guide departed souls to the afterlife.
       </p>
+          
 
       <!-- Images -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
@@ -91,6 +93,7 @@ pages = {"Dragon Ball":{ "name":"Dragon Ball", "page": """<body class="min-h-scr
         <img src="https://i.pinimg.com/564x/64/d0/4a/64d04a61ec6904fbbfe65d3992f20593.jpg" 
              alt="Ichigo Hollow form" class="rounded-lg shadow-md">
       </div>
+        <a href="/chat/bleach" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full font-semibold transition-colors inline-block">chat</a>
     </div>
   </main>
 
@@ -140,6 +143,7 @@ pages = {"Dragon Ball":{ "name":"Dragon Ball", "page": """<body class="min-h-scr
         <img src="https://i.pinimg.com/564x/66/02/c2/6602c24e14a72e1e858b51a0a1e2f8d8.jpg" 
              alt="Naruto Kurama Mode" class="rounded-lg shadow-md">
       </div>
+                          <a href="/chat/naruto" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full font-semibold transition-colors inline-block">chat</a>
     </div>
   </main>
   <!-- Footer -->
@@ -189,6 +193,7 @@ pages = {"Dragon Ball":{ "name":"Dragon Ball", "page": """<body class="min-h-scr
         <img src="https://i.pinimg.com/564x/82/70/1a/82701a7402d4a6181178f2688a9a8cd3.jpg" 
              alt="Luffy vs Kaido" class="rounded-lg shadow-md">
       </div>
+            <a href="/chat/one piece" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full font-semibold transition-colors inline-block">chat</a>
     </div>
   </main>
 

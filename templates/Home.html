@@ -23,7 +23,7 @@
                 {%for route in routes%}
                 
                 
-                {%if route != "Login"%}<li><a href="/{{route}}" class="nav-link text-white font-semibold hover:text-yellow-200 transition-colors">{{route}}</a></li>{%else%} <li><a href="/{{route}}"  class="bg-white text-purple-600 px-6 py-2 rounded-full font-semibold hover:bg-yellow-200 transition-colors">{{route}}</a></li>{%endif%}
+                {%if route != "login" and route!="logout"%}<li><a href="/{{route}}" class="nav-link text-white font-semibold hover:text-yellow-200 transition-colors">{{route}}</a></li>{%else%} <li><a href="/{{route}}"  class="bg-white text-purple-600 px-6 py-2 rounded-full font-semibold hover:bg-yellow-200 transition-colors">{{route}}</a></li>{%endif%}
                 {%endfor%}
             </ul>
             
@@ -88,6 +88,7 @@
                         <h3 class="text-xl font-bold mb-3 text-purple-600">Naruto Universe</h3>
                         <p class="text-gray-600 mb-4">Chat with fellow shinobi fans, discuss jutsu techniques, and share your love for the Hidden Leaf Village</p>
                         <button onclick="ExibirPag('Naruto')"  class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full font-semibold transition-colors inline-block">Join Community</button>
+                        
                     </div>
                 </div>
 
