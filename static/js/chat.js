@@ -27,6 +27,6 @@ socket.on("message", (data)=>{
 })
 
 function sendMessage(){
-    socket.emit("message", { msg: document.getElementById("messageInput").value, room: document.getElementById("Name").innerText})
+    socket.emit("message", {msg: document.getElementById("messageInput").value})
     document.getElementById("messageInput").value = ""
 }
