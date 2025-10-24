@@ -5,8 +5,8 @@ logout = Blueprint("logout", __name__)
 
 @logout.route("/logout")
 def Logout():
-    if request.method == "POST":
-        response = make_response(redirect(url_for("home.Home")))
-        names.remove(request.cookies.get("name"))
-        response.delete_cookie("name")
-        return response
+   
+    response = make_response(redirect(url_for("home.Home")))
+    names.remove(request.cookies.get("name"))
+    response.delete_cookie("name")
+    return response
